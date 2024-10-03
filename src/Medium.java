@@ -4,9 +4,9 @@ public abstract class Medium {
     private String titel;
     private String kommentar;
     private Date erscheinungsdatum;
-    private String genre;
+    private Genre genre;
 
-    public Medium(String titel, String kommentar, Date erscheinungsdatum, String genre) {
+    public Medium(String titel, String kommentar, Date erscheinungsdatum, Genre genre) {
         this.titel = titel;
         this.kommentar = kommentar;
         this.erscheinungsdatum = erscheinungsdatum;
@@ -25,7 +25,7 @@ public abstract class Medium {
         return erscheinungsdatum;
     }
 
-    public String getGenre() {
+    public Genre getGenre() {
         return genre;
     }
 
@@ -41,11 +41,12 @@ public abstract class Medium {
         this.erscheinungsdatum = erscheinungsdatum;
     }
 
-    public void setGenre(String genre) {
+    public void setGenre(Genre genre) {
         this.genre = genre;
     }
     public void anzeigen(){
         System.out.println("Titel: " + getTitel() + "kommentar: " + getKommentar() +"erscheinungsdatum: "+ getErscheinungsdatum() +  "genre: " + getGenre());
     }
+
 
 }

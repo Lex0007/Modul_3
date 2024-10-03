@@ -5,12 +5,12 @@ public class Filme extends Medium{
     private int spielzeit;
     private Bildaufloesung bildaufloesung;
 
-    public Filme(String titel, String kommentar, Date erscheinungsdatum, String genre) {
+    public Filme(String titel, String kommentar, Date erscheinungsdatum, Genre genre) {
         super(titel, kommentar, erscheinungsdatum, genre);
 
     }
 
-    public Filme(String titel, String kommentar, Date erscheinungsdatum, String genre, String regisseur, int spielzeit, Bildaufloesung bildaufloesung) {
+    public Filme(String titel, String kommentar, Date erscheinungsdatum, Genre genre, String regisseur, int spielzeit, Bildaufloesung bildaufloesung) {
         super(titel, kommentar, erscheinungsdatum, genre);
         this.regisseur = regisseur;
         this.spielzeit = spielzeit;
@@ -44,5 +44,6 @@ public class Filme extends Medium{
     @Override
     public void anzeigen() {
         super.anzeigen();
+        System.out.println("Regisseur: " + regisseur + "spielzeit: " + spielzeit + "bildaufloesung: " + bildaufloesung);
     }
 }

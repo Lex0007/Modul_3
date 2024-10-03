@@ -10,3 +10,5 @@ Diese Klasse ist zum erstellen der richtigen erstellung der Klassen.
 #### Enum
 Enum für die Auswahl zwischen HD und UHD erstellt und in der Klasse Filme hinzugefügt.
 
+### Klasse eBooks
+Diese Klasse ist zum erstellen der richtigen erstellung der Klassen.
