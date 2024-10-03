@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Medium {
+public abstract class Medium {
     private String titel;
     private String kommentar;
     private Date erscheinungsdatum;
@@ -13,5 +13,39 @@ public class Medium {
         this.genre = genre;
     }
 
+    public String getTitel() {
+        return titel;
+    }
+
+    public String getKommentar() {
+        return kommentar;
+    }
+
+    public Date getErscheinungsdatum() {
+        return erscheinungsdatum;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public void setTitel(String titel) {
+        this.titel = titel;
+    }
+
+    public void setKommentar(String kommentar) {
+        this.kommentar = kommentar;
+    }
+
+    public void setErscheinungsdatum(Date erscheinungsdatum) {
+        this.erscheinungsdatum = erscheinungsdatum;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+    public void anzeigen(){
+        System.out.println("Titel: " + getTitel() + "kommentar: " + getKommentar() +"erscheinungsdatum: "+ getErscheinungsdatum() +  "genre: " + getGenre());
+    }
 
 }
