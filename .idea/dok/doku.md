@@ -18,3 +18,4 @@ Anzeigen Methode hinzugefügt, sodass es von der Subklasse überschrieben wird
 
 ### Medienbilbliotheke
 Konstuktor und add Methode hinzugefügt mit ArrayList hinzugefügt zum Ausgeben der Daten.
+Methoden zur Ausgabe hinzugefügt, welche nur Filme mit Titel ausgibt
