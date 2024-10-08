@@ -12,3 +12,9 @@ Enum für die Auswahl zwischen HD und UHD erstellt und in der Klasse Filme hinzu
 
 ### Klasse eBooks
 Diese Klasse ist zum erstellen der richtigen erstellung der Klassen.
+
+### Anzeigen Methode
+Anzeigen Methode hinzugefügt, sodass es von der Subklasse überschrieben wird
+
+### Medienbilbliotheke
+Konstuktor und add Methode hinzugefügt mit ArrayList hinzugefügt zum Ausgeben der Daten.
