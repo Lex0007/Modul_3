@@ -45,7 +45,7 @@ public abstract class Medium {
         this.genre = genre;
     }
     public void anzeigen(){
-        System.out.println("Titel: " + getTitel() + "kommentar: " + getKommentar() +"erscheinungsdatum: "+ getErscheinungsdatum() +  "genre: " + getGenre());
+        System.out.println("Titel: " + getTitel() + " kommentar: " + getKommentar() +" erscheinungsdatum: "+ getErscheinungsdatum() +  " genre: " + getGenre());
     }
 
 

@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Medienbibliothek {
     private ArrayList<Medium> listMedien;
 
-    public Medienbibliothek(ArrayList<Medium> listMedien) {
+    public Medienbibliothek() {
         this.listMedien = new ArrayList<>();
     }
 

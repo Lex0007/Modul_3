@@ -44,6 +44,6 @@ public class Filme extends Medium{
     @Override
     public void anzeigen() {
         super.anzeigen();
-        System.out.println("Regisseur: " + regisseur + "spielzeit: " + spielzeit + "bildaufloesung: " + bildaufloesung);
+        System.out.print(" Regisseur: " + regisseur + " spielzeit: " + spielzeit + " bildaufloesung: " + bildaufloesung);
     }
 }
